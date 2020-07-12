@@ -22,8 +22,7 @@ MODELS = os.path.join(BASE_DIR, 'predictor/models')
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-with open('../../scrt.txt') as f:
-    SECRET_KEY = f.read().strip()
+SECRET_KEY = "inaynl_=zq*1$6i!jy^m$ty9n(-&sq+s1cnyb+e0h@u^jw*iko"
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
