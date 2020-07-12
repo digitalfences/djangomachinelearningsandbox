@@ -22,7 +22,9 @@ MODELS = os.path.join(BASE_DIR, 'predictor/models')
 # See https://docs.djangoproject.com/en/3.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = "inaynl_=zq*1$6i!jy^m$ty9n(-&sq+s1cnyb+e0h@u^jw*iko"
+# I have removed the secret key to my local repo
+# contact me if you would like the key to test the app
+SECRET_KEY = ""
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
